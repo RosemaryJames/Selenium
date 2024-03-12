@@ -1,0 +1,13 @@
+<suite name="Group">
+	<test name="GroupTest1">
+		<groups>
+			<run>
+				<include name="fromanothersuitefile"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGBasics.GroupingTest"></class>
+			<class name="testNGBasics.BasictestNGCommand"></class>
+		</classes>
+	</test>
+</suite>

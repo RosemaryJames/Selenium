@@ -1,0 +1,9 @@
+<suite name="Group">
+	<test name="Parameter">
+		<parameter name="ParameterName" value="parameterValue"></parameter>
+		<parameter name="ParameterNumber" value="27"></parameter>
+		<classes>
+			<class name="testNGBasics.ParameterTest"></class>
+		</classes>
+	</test>
+</suite>
